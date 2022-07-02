@@ -297,7 +297,7 @@ p {
 
 .mysection .mycard:hover {
   margin-top: 5rem;
-  height: 420px;
+  height: 370px;
 }
 
 
@@ -319,7 +319,7 @@ p {
 
 .mysection .mycard .mycontent {
   position: relative;
-  top: -170px;
+  top: -140px;
   padding: 10px 15px;
   color: #111;
   text-align: center;
