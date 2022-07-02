@@ -1,0 +1,466 @@
+/**********TAG****************/
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: Ubuntu;
+  font-size: 1.2rem;
+}
+
+/******************************************/
+#title {
+
+  color: #fff;
+  min-height: 100vh;
+  width: 100%;
+
+  background-color: black;
+  background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  padding: 0 8%;
+
+}
+
+.custom-btn {
+  width: 230px;
+  height: 50px;
+  color: rgb(132, 45, 2);
+  border-radius: 4%;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 2000;
+  background: #e0e5ec;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(126, 94, 3, 0.966),
+    7px 7px 20px 0px rgba(192, 102, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  outline: none;
+}
+
+.btn-6 {
+  background: rgb(232, 205, 131);
+  background: radial-gradient(circle, rgb(249, 217, 113) 0%, rgb(165, 111, 63) 100%);
+  line-height: 45px;
+  padding: 5px;
+  border: none;
+}
+
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 1px;
+  box-shadow:
+    -1px -1px 20px 0px rgb(235, 2, 10),
+    -4px -4px 5px 0px rgb(255, 4, 4),
+    7px 7px 20px 0px rgba(255, 0, 0, 0.4),
+    4px 4px 5px 0px rgba(255, 0, 0, 0.3);
+}
+
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+
+.btn-6:hover {
+  background: rgb(242, 227, 185);
+  color: #000000;
+  box-shadow: none;
+}
+
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  box-shadow:
+    -1px -1px 20px 0px rgb(255, 0, 0),
+    -4px -4px 5px 0px rgb(255, 0, 0),
+    7px 7px 20px 0px rgba(255, 0, 0, 0.4),
+    4px 4px 5px 0px rgba(255, 0, 0, 0.3);
+}
+
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: .5px;
+  transition: all 500ms ease;
+}
+
+.btn-6 span:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: .5px;
+  transition: all 500ms ease;
+}
+
+.btn-6 span:hover:before {
+  width: 100%;
+}
+
+.btn-6 span:hover:after {
+  width: 100%;
+}
+
+.GmLogo {
+  height: 100px;
+  margin-top: 20%;
+}
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+  position: sticky;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: 'Raleway', sans-serif;
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  transition: all 0.75s;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+  
+}
+
+/**************************************/
+
+#goals {
+  padding: 7% 15%;
+  background-color: #ffff;
+  position: relative;
+
+}
+
+.goal-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #b38900;
+  margin-bottom: 1rem;
+}
+
+
+
+/*****************************************/
+
+#about {
+
+  text-align: center;
+  background-image: linear-gradient(#000000c3, #000000c3), url(../images/Gm.png);
+  background-position: center;
+  background-size: 50%;
+  background-color: #000;
+  background-repeat: no-repeat;
+
+  max-height: 10%;
+  color: #ffff;
+}
+
+
+.carousel-item {
+  padding: 7% 25%;
+}
+
+#outcomes {
+  background-color: #000;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+
+.icon2 {
+  color: rgb(132, 122, 64);
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+
+
+/*************************************/
+
+#team {
+  padding: 50px;
+  text-align: center;
+}
+
+
+.myrow {
+
+  margin: 0;
+  padding-top: 0;
+  box-sizing: border-box;
+
+}
+
+.mycontent h3 {
+  font-family: 'Sriracha', cursive;
+  margin-bottom: 1rem;
+}
+
+.mycontent p {
+  font-style: italic;
+  color: rgb(170, 62, 52);
+
+}
+
+.mysection {
+  position: relative;
+  width: 419px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-warp: warp;
+  padding: 30px;
+}
+
+.mysection .mycard {
+  position: relative;
+  max-width: 304px;
+  height: 230px;
+  background-color: #fff;
+  margin: 2rem 10px;
+  padding: 20px 15px;
+
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.mysection .mycard:hover {
+  margin-top: 5rem;
+  height: 370px;
+}
+
+
+.mysection .mycard .myimage {
+  border-radius: 20px;
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -40%;
+  left: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.mysection .mycard .myimage img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.mysection .mycard .mycontent {
+  position: relative;
+  top: -140px;
+  padding: 10px 15px;
+  color: #111;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+
+}
+
+.mysection .mycard:hover .mycontent {
+  margin-top: 25px;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+/***********************************/
+
+#register {
+  text-align: left;
+  background-image: linear-gradient(#000000c3, #000000c3), url(../images/Gm.png);
+  background-position: center;
+  background-size: 60%;
+  background-color: #000;
+  background-repeat: no-repeat;
+  padding: 3% 20%;
+}
+
+
+.icon3 {
+  color: rgb(255, 255, 198);
+  margin-right: 1rem;
+
+}
+
+
+
+.button-73 {
+  appearance: none;
+  background-color: #f3dfdf;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #fee095;
+  box-shadow: #f2dba5 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+
+/*************************************/
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.footer-icon {
+  margin: 20px 15px 30px;
+  height: 40px;
+  transition: all 0.75s;
+}
+
+#footer p {
+
+  color: #000;
+}
+
+
+.footer-icon:hover {
+  transform: scale(1.2);
+}
+
+/*************************************/
+.always {
+
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1.75s infinite;
+}
+
+.nav-link:hover,
+.footer-icon:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+@media (max-width:1050px) {
+
+  #title {
+    text-align: center;
+    background-image:linear-gradient(#000000c3,#000000c3),url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
+    background-position: center;
+    padding: 0 12%;
+    line-height: 3rem;
+  }
+
+}
